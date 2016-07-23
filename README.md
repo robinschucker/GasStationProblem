@@ -1,8 +1,7 @@
 # GasStationProblem
 Author: Robin Schucker (schucker.robin[at]gmail.com)
 date: 05/11/16
-----------------------------------------------------
-Gas Station Problem:
+
     Given a set of gas stations with GPS coordinates and the price per gallon
     compute the optimal path from a start point to end point. From any point
     it is possible to reach any other point in a straight line
@@ -33,7 +32,7 @@ Gas Station Problem:
     gas stations in file. With 8000 data points and MAX_STOP = 10
     it takes about 60 minutes on a standard mac laptop
 
-Input file:
+    Input file:
     The csv input file must have the following format:
     ,fuelPrice,latitude,longitude
     0,1.46,32.3717248,-112.8607099
