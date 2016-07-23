@@ -1,0 +1,70 @@
+with alpha = 0
+--------------------
+computing cost for 1 stop...
+path found with cost: 54.0966975673
+start -> 4815.0 -> finish
+Computing cost for 2 stop............................
+path found with cost: 45.1819462918
+start -> 5128.0 -> 4880.0 -> finish
+Computing cost for 3 stop............................
+path found with cost: 45.3136277247
+start -> 5087.0 -> 4998.0 -> 49.0 -> finish
+Computing cost for 4 stop............................
+path found with cost: 45.4929113675
+start -> 5087.0 -> 5120.0 -> 4887.0 -> 48.0 -> finish
+Computing cost for 5 stop............................
+path found with cost: 45.5452772951
+start -> 5087.0 -> 4998.0 -> 5120.0 -> 4887.0 -> 48.0 -> finish
+
+with alpha = 1/6 (10$/h at 60mph)
+--------------------------------
+Computing cost for 1 stop...
+path found with cost: 311.902434431
+start -> 5064.0 -> finish
+Computing cost for 2 stop............................
+path found with cost: 345.421887796
+start -> 7923.0 -> 4880.0 -> finish
+Computing cost for 3 stop............................
+path found with cost: 342.33322358
+start -> 7923.0 -> 5050.0 -> 4855.0 -> finish
+Computing cost for 4 stop............................
+path found with cost: 342.901457687
+start -> 7923.0 -> 5050.0 -> 5053.0 -> 4856.0 -> finish
+Computing cost for 5 stop............................
+path found with cost: 343.072319642
+start -> 7923.0 -> 5050.0 -> 5053.0 -> 5055.0 -> 4782.0 -> finish
+Computing cost for 6 stop............................
+path found with cost: 343.392454512
+start -> 7923.0 -> 5050.0 -> 5053.0 -> 5055.0 -> 5049.0 -> 4849.0 -> finish
+Computing cost for 7 stop............................
+path found with cost: 343.567100099
+start -> 7923.0 -> 5050.0 -> 5053.0 -> 5055.0 -> 5059.0 -> 5058.0 -> 4836.0 -> finish
+Computing cost for 8 stop............................
+path found with cost: 343.938532124
+start -> 7923.0 -> 5050.0 -> 5053.0 -> 5055.0 -> 5059.0 -> 5058.0 -> 5057.0 -> 4847.0 -> finish
+Computing cost for 9 stop............................
+path found with cost: 344.376504952
+start -> 7923.0 -> 5050.0 -> 5053.0 -> 5055.0 -> 5049.0 -> 5059.0 -> 5058.0 -> 5057.0 -> 4847.0 -> finish
+
+
+with alpha = 3/60 (3$/h)
+---------------------------------
+Computing cost for 1 stop...
+path found with cost: 139.739867483
+start -> 5064.0 -> finish
+Computing cost for 2 stop............................
+path found with cost: 120.907354083
+start -> 7816.0 -> 4880.0 -> finish
+Computing cost for 3 stop............................
+path found with cost: 126.947472901
+start -> 7911.0 -> 5087.0 -> 49.0 -> finish
+Computing cost for 4 stop............................
+path found with cost: 125.507894425
+start -> 7911.0 -> 5059.0 -> 5050.0 -> 4855.0 -> finish
+Computing cost for 5 stop............................
+path found with cost: 125.507894425
+start -> 7911.0 -> 5059.0 -> 5053.0 -> 5050.0 -> 4855.0 -> finish
+Computing cost for 6 stop............................
+path found with cost: 125.507894425
+start -> 7911.0 -> 5059.0 -> 5055.0 -> 5053.0 -> 5050.0 -> 4855.0 -> finish
+
