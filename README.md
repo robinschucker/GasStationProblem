@@ -5,6 +5,7 @@ date: 05/11/16
 Given a set of gas stations with GPS coordinates and the price per gallon
 compute the optimal path from a start point to end point. From any point
 it is possible to reach any other point in a straight line
+
 Given constraints:
    - do not run out of gas
    - minimise length of trip
@@ -13,6 +14,7 @@ Given constraints:
 Minimising the length and minimising the cost are two different objectives
 and so I chose to optimise both at the same time using a weighted cost
 function:
+
     C = cost of gas + cost of time
     where 'cost of time' = distance * ALPHA, and ALPHA some constant
     ALPHA = 1/6 corresponds to 10$/h at 60mph
@@ -40,6 +42,6 @@ The csv input file must have the following format:
     .
     .
     .
-    last_index,1.48,39.5383008,-110.2207786
+    <last_index>,1.48,39.5383008,-110.2207786
     start,0.0,30.0,-99.0
     finish,x,40.,-122.0
